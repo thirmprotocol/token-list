@@ -1,32 +1,32 @@
 {
-  "name": "@sushiswap/default-token-list",
-  "version": "6.13.0",
-  "description": "◦ The SushiSwap default token list",
-  "main": "build/sushiswap-default.tokenlist.json",
+  "name": "@thirmprotocol/swap-token-list",
+  "version": "0.0.1",
+  "description": "The Thirm Swap default token list",
+  "main": "build/thirmswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node src/write.js > build/sushiswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/thirmswap-default.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
-    "build/sushiswap-default.tokenlist.json"
+    "build/thirmswap-default.tokenlist.json"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sushiswap/default-token-list.git"
+    "url": "git+https://github.com/thirmprotocol/swap-token-list.git"
   },
   "keywords": [
-    "sushiswap",
+    "thirmswap",
     "default",
     "token",
     "list"
   ],
-  "author": "Matthew Lilley <hello@matthewlilley.com>",
+  "author": "thirmdeveloper@gmail.com",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/sushiswap/default-token-list/issues"
+    "url": "https://github.com/thirmprotocol/swap-token-list/issues"
   },
-  "homepage": "https://github.com/sushiswap/default-token-list#readme",
+  "homepage": "https://github.com/thirmprotocol/swap-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@uniswap/token-lists": "^1.0.0-beta.19",
