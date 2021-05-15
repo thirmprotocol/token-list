@@ -1,5 +1,13 @@
 [
   {
+    "name": "THIRM",
+    "symbol": "THIRM",
+    "address": "0x21Da60B286BaEfD4725A41Bb50a9237eb836a9Ed",
+    "chainId": 137,
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/thirm_32.png"
+  },
+  {
     "name": "USD Coin",
     "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
     "symbol": "USDC",

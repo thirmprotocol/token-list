@@ -1,5 +1,13 @@
 [
   {
+    "name": "THIRM",
+    "symbol": "THIRM",
+    "address": "0x21Da60B286BaEfD4725A41Bb50a9237eb836a9Ed",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/thirm_32.png"
+  },
+  {
     "name": "Bakery Token",
     "symbol": "BAKE",
     "address": "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",

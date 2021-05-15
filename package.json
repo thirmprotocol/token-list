@@ -1,11 +1,11 @@
 {
-  "name": "@thirmprotocol/swap-token-list",
-  "version": "0.0.1",
+  "name": "@thirm/token-list",
+  "version": "0.0.3",
   "description": "The Thirm Swap default token list",
   "main": "build/thirmswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node src/write.js > build/thirmswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir build && node src/write.js > build/thirmswap-default.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thirmprotocol/swap-token-list.git"
+    "url": "git+https://github.com/thirmprotocol/token-list.git"
   },
   "keywords": [
     "thirmswap",
@@ -24,9 +24,9 @@
   "author": "developer@thirm.com",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/thirmprotocol/swap-token-list/issues"
+    "url": "https://github.com/thirmprotocol/token-list/issues"
   },
-  "homepage": "https://github.com/thirmprotocol/swap-token-list#readme",
+  "homepage": "https://github.com/thirmprotocol/token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@uniswap/token-lists": "^1.0.0-beta.19",
