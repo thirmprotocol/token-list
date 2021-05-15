@@ -1,7 +1,7 @@
 {
   "name": "@thirm/token-list",
-  "version": "0.0.3",
-  "description": "The Thirm Swap default token list",
+  "version": "0.0.4",
+  "description": "Thirm Swap default token list",
   "main": "build/thirmswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
